@@ -1,5 +1,4 @@
-# vim_config
-My vimrc
+# My vim config
 
 Remove current ```.vim``` directory
 ```
