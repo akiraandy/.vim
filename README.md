@@ -1,13 +1,17 @@
 # vim_config
 My vimrc
 
-Pull repo down
+Remove current ```.vim``` directory
 ```
-git clone --recursive https://github.com/akiraandy/andys_vim_settings.git
+rm -rf .vim
 ```
 
-Create symlinks
+Pull repo down
 ```
-ln -sf andys_vim_settings ~/.vim
-ln -sf andys_vim_settimngs/.vimrc ~/.vimrc
+git clone --recursive https://github.com/akiraandy/.vim.git
+```
+
+Create symlink
+```
+ln -sf ~/.vim/.vimrc ~/.vimrc
 ```
