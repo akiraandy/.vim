@@ -3,11 +3,11 @@ My vimrc
 
 Pull repo down
 ```
-git clone <this_repo_link>
+git clone --recursive https://github.com/akiraandy/.vim.git
 ```
 
-replace current vimrc with vimrc from this repo
+Create symlinks
 ```
-cd ./vim_config
-mv .vimrc ~/.vimrc
+ln -sf reponame ~/.vim
+ln -sf reponame/vimrc ~/.vimrc
 ```
