@@ -3,11 +3,11 @@ My vimrc
 
 Pull repo down
 ```
-git clone --recursive https://github.com/akiraandy/.vim.git
+git clone --recursive https://github.com/akiraandy/andys_vim_settings.git
 ```
 
 Create symlinks
 ```
-ln -sf reponame ~/.vim
-ln -sf reponame/vimrc ~/.vimrc
+ln -sf andys_vim_settings ~/.vim
+ln -sf andys_vim_settimngs/.vimrc ~/.vimrc
 ```
