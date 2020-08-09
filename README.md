@@ -17,16 +17,6 @@ curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh >
 sh ./installer.sh ~/.cache/dein
 ```
 
-Nav to dir
-```
-cd ~/.vim
-```
-
-Update submodules
-```
-git submodule foreach git pull origin master
-```
-
 Create symlink
 ```
 ln -sf ~/.vim/.vimrc ~/.vimrc
